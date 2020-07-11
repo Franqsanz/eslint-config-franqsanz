@@ -1,15 +1,27 @@
 {
   "name": "eslint-config-franqsanz",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "My config ESLint and Prettier",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Franco Andrés Sánchez",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Franqsanz/eslint-config-franqsanz.git"
+  },
+  "license": "MIT",
   "peerDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-html": "^6.0.2",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
     "prettier": "^1.18.2"
   },
   "devDependencies": {

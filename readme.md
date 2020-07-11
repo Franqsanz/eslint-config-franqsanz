@@ -1,0 +1,1 @@
+# Config ESLint and Prettier 🖊
