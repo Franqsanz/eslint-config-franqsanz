@@ -1,1 +1,1 @@
-# Config ESLint and Prettier 🖊
+# My Config ESLint and Prettier 👀👀
