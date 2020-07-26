@@ -19,7 +19,7 @@ module.exports = {
     ecmaVersion: 11,
   },
   rules: {
-    // 0 => "off", 1 => "warn", 2 => "error"
+    // 0 = "off", 1 = "warn", 2 = "error"
     'no-console': 0,
     'func-names': 0,
     'no-debugger': 0,
@@ -32,6 +32,14 @@ module.exports = {
     'node/no-missing-require': 2,
     'no-dupe-keys': 1,
     'no-shadow': 0,
+    'no-var': 2,
+    // 'prefer-const': [2, { destructuring: 'all' }],
+    'no-else-return': 2,
+    'capitalized-comments': 1,
+    'comma-spacing': 1,
+    'spaced-comment': 1,
+    'max-len': 0,
+    'arrow-parens': 1,
     quotes: [
       2,
       'single',
