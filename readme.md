@@ -1,10 +1,8 @@
 # My Config ESLint and Prettier 👀
 
-Está es mi configuración. En el futuro seguramente iré agregando más _"rules"_.
+Está es mi configuración. En el futuro seguramente iré agregando más `rules`.
 
-¿Contribuir?
-
-👇🏻
+Clonar el repo:
 ```sh
 $ git clone https://github.com/Franqsanz/eslint-config-franqsanz.git
 ```
