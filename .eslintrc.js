@@ -9,14 +9,15 @@ module.exports = {
     mocha: true,
   },
   extends: [
-    'eslint:recommended',
-    // 'airbnb',
+    // 'eslint:recommended',
+    'airbnb-base',
     'prettier',
     'plugin:node/recommended',
   ],
   parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 11,
+    sourceType: 'module',
   },
   rules: {
     // 0 = "off", 1 = "warn", 2 = "error"
@@ -30,6 +31,7 @@ module.exports = {
     'no-undef': 0,
     'node/no-unpublished-require': 0,
     'node/no-missing-require': 2,
+    'node/no-unsupported-features/es-syntax': 0,
     'no-dupe-keys': 1,
     'no-shadow': 0,
     'no-var': 2,
@@ -39,7 +41,8 @@ module.exports = {
     'comma-spacing': 1,
     'spaced-comment': 1,
     'max-len': 0,
-    'arrow-parens': 1,
+    'arrow-parens': 0,
+    'arrow-body-style': [2, 'as-needed'],
     quotes: [
       2,
       'single',
