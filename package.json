@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-franqsanz",
-  "version": "0.0.2",
+  "version": "0.0.25",
   "description": "My config ESLint and Prettier",
   "main": "index.js",
   "scripts": {
