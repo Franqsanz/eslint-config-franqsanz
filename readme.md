@@ -1,4 +1,4 @@
-# My Config ESLint and Prettier 👀
+# My Config ESLint and Prettier
 
 Está es mi configuración. En el futuro seguramente iré agregando más `rules`.
 
@@ -15,6 +15,13 @@ y agregarla al archivo `.eslintrc` como extensión:
   "extends": [
     "franqsanz"
   ]
+}
+```
+También lo puedes incluir en el archivo `package.json`, utilizando la propiedad `"eslintConfig"`.
+
+```json
+"eslintConfig": {
+  "extends": "franqsanz"
 }
 ```
 
